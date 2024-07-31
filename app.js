@@ -49,7 +49,7 @@ Complete the exercise in the space below:
 */
 
 function isCharAVowel(char) {
-  return "aeiou".includes(char);
+  return "aeiou".includes(char.toLowerCase());
 }
 
 console.log("Exercise 3 Result:", isCharAVowel("a"));
